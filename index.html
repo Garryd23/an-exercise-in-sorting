@@ -2,11 +2,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <title>An exercise in sorting.</title>
   </head>
   <body>
-    <div>
+    <div class="container">
       <h1>An exercise in sorting.</h1>
+      <h4>Description:</h4>
+      <p>
+        A program that sorts a random piece of text in ascending order. It will ignore all punctuation, special characters, spaces and numbers. All uppercase
+        letters will be mapped to lowercase and only letters will be returned.
+      </p>
       <label for="randomText">Insert your random text here:</label><br />
       <textarea id="randomText" type="textarea" onfocus="this.select()" cols="100" rows="10"></textarea><br />
       <button>Sort Text</button>
